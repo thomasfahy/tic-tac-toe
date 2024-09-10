@@ -1,0 +1,12 @@
+.square{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+}
+
+.gameboard{
+    display: grid;
+    grid-template-columns: 100px 100px 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px;
+}
