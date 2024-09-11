@@ -1,12 +1,38 @@
 .square{
     border: 1px solid black;
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
 }
 
 .gameboard{
     display: grid;
-    grid-template-columns: 100px 100px 1fr;
+    grid-template-columns: 150px 150px 150px;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 0px;
+}
+
+.controls{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+#start-button{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+}
+
+#restart-button{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+}
+
+#page-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
 }
