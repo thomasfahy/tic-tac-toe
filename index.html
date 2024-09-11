@@ -9,16 +9,19 @@
 </head>
 <body>
     <div id="header">
-        <h1>Naughts and Crosses</h1>
+        <h1 id="page-title">Naughts and Crosses</h1>
     </div>
     <div id="page-content">
-
         <div class="gameboard"></div>
         <div class="controls">
-            <input type="text" id="player1" placeholder="Player 1 Name">
-            <input type="text" id="player2" placeholder="Player 2 Name">
-            <button id="start-button">Start</button>
-            <button id="restart-button">Restart</button>
+            <div class="inputs">
+                <input type="text" id="player1" placeholder="Player 1 Name">
+                <input type="text" id="player2" placeholder="Player 2 Name">
+            </div>
+            <div class="buttons">
+                <button id="start-button">Start</button>
+                <button id="restart-button">Restart</button>
+            </div>
         </div>
         <div id="end-message"></div>
         <div id="result-display"></div>

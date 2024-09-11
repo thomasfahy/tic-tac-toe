@@ -7,25 +7,31 @@
     border: 1px solid black;
     height: 150px;
     width: 150px;
+    font-size: 6rem;
+    align-content: center;
+    text-align: center;
 }
 
 .gameboard{
+    margin-top: 4rem;
     display: grid;
     grid-template-columns: 150px 150px 150px;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 150px 150px 150px;
     gap: 0px;
 }
 
 .controls{
-    margin-top: 4rem;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
 
 }
+#page-title{
+    color: white;
+}
 #header{
-    height: 6rem;
-    background-color: wheat;
-    justify-content: center;
+    height: 10vh;
+    background-color: #6A0DAD;
+    text-align: center;
     align-content: center;
 }
 
@@ -42,9 +48,36 @@
     border-radius: 1rem;
     border: 1px solid black;
 }
+#player1{
+    height: 2rem;
+    width: 8rem;
+}
+#player2{
+    height: 2rem;
+    width: 8rem;
+}
 
 #page-content{
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
+    height: 90vh;
+    background-color: #E6E6FA;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+.inputs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+#end-message{
+    font-size: 3rem;
+    color: #6A0DAD;
 }
